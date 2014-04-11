@@ -15,7 +15,6 @@ exports.reg = function(req, res) {
 exports.doReg = function(req, res) {
     req.checkBody('username', 'Username is required').notEmpty();
     /*req.checkBody('password', 'Password is required').notEmpty();
-     req.checkBody('display', 'DisplayName is required').notEmpty();
      req.checkBody('email', 'Email is required').notEmpty();
      req.checkBody('email', 'Email does not appear to be valid').isEmail();*/
 
