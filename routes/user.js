@@ -47,6 +47,7 @@ exports.doReg = function(req, res) {
 
         connection.end();
     }
+    res.send("register done");
 };
 
 exports.login = function(req, res) {
